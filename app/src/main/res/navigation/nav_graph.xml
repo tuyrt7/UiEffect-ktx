@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/componentFragment"
+    android:id="@+id/nav_graph">
+
+    <fragment android:id="@+id/componentFragment"
+        android:name="com.tuyrt.uieffect.module.components.ComponentFragment"
+        android:label="@string/title_component"
+        />
+
+    <fragment
+        android:id="@+id/toolFragment"
+        android:name="com.tuyrt.uieffect.module.tool.ToolFragment"
+        android:label="@string/title_tool" />
+
+    <fragment
+        android:id="@+id/extendFragment"
+        android:name="com.tuyrt.uieffect.module.extend.ExtendFragment"
+        android:label="@string/title_extend" />
+</navigation>

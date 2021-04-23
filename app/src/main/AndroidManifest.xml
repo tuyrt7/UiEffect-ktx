@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tuyrt.uieffect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.UiEffectktx">
+        <activity
+            android:name=".MainActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--StatusBar-效果 -->
+        <activity android:name="com.tuyrt.uieffect.module.components.statusbar.StatusMainActivity"
+            android:theme="@style/status_toolbar_same_color" />
+        <activity android:name="com.tuyrt.uieffect.module.components.statusbar.FullScreenActivity"
+            android:theme="@style/NoActionBarStyle"/>
+        <activity android:name="com.tuyrt.uieffect.module.components.statusbar.FullScreenWithTextActivity"
+            android:theme="@style/NoActionBarStyle"/>
+        <activity android:name="com.tuyrt.uieffect.module.components.statusbar.FullscreenWithTitleBarActivity"
+            android:theme="@style/status_toolbar_same_color"/>
+
+        <!--recycler-列表展示-->
+        <activity android:name="com.tuyrt.uieffect.module.components.recyclerview.RecyclerMainActivity" />
+        <activity android:name="com.tuyrt.uieffect.module.components.recyclerview.PicturesActivity" />
+        <activity android:name="com.tuyrt.uieffect.module.components.recyclerview.DragActivity" />
+        <activity android:name="com.tuyrt.uieffect.module.components.recyclerview.SwipeActivity" />
+        <activity android:name="com.tuyrt.uieffect.module.components.recyclerview.ParallaxHorizontalActivity"
+            android:theme="@style/NoActionBarStyle"
+            android:screenOrientation="landscape" />
+        <activity android:name="com.tuyrt.uieffect.module.components.recyclerview.ParallaxVerticalActivity"
+            android:theme="@style/NoActionBarStyle"/>
+        <activity android:name="com.tuyrt.uieffect.module.components.recyclerview.ParallaxActivity" /> <!--特殊效果-->
+        <activity android:name="com.tuyrt.uieffect.module.components.recyclerview.CitiesActivity" />
+
+        <activity android:name="com.tuyrt.uieffect.module.components.timeline.TimelineActivity" />
+        <activity android:name="com.tuyrt.uieffect.module.extend.mark.MarkActivity" />
+        <activity android:name="com.tuyrt.uieffect.module.extend.chart.ChartMainActivity" />
+
+        <!--bitmap-->
+        <activity android:name=".module.tool.bitmap.BitmapMainActivity" />
+        <activity android:name=".module.tool.bitmap.BitmapActivity" />
+        <activity android:name=".module.tool.bitmap.FunctionActivity" />
+        <activity android:name=".module.tool.bitmap.GlideActivity" />
+        <activity android:name=".module.tool.bitmap.SubSamplingActivity" />
+
+        <activity android:name="com.tuyrt.uieffect.module.extend.floats.FloatsMainActivity" />
+
+        <activity android:name="com.tuyrt.uieffect.module.extend.material.MaterialActivity" />
+        <activity android:name="com.tuyrt.uieffect.module.extend.material.CoordinatorTabLayoutActivity"
+            android:theme="@style/NoActionBarStyle"/>
+        <activity android:name="com.tuyrt.uieffect.module.extend.material.CoordinatorAppBarActivity"
+            android:theme="@style/NoActionBarStyle"/>
+        <activity android:name="com.tuyrt.uieffect.module.extend.material.CoordinatorFollowActivity"
+            android:theme="@style/NoActionBarStyle"/>
+        <activity android:name="com.tuyrt.uieffect.module.extend.material.CoordinatorComplexActivity"
+            android:theme="@style/NoActionBarStyle"/>
+        <activity android:name="com.tuyrt.uieffect.module.extend.material.ToolBarActivity"
+            android:theme="@style/NoActionBarStyle" />
+        <activity android:name="com.tuyrt.uieffect.module.extend.material.ZhiHuActivity"
+            android:theme="@style/NoActionBarStyle"/>
+
+        <service android:name="com.tuyrt.uieffect.module.extend.floats.floatwindow.FloatWindowService" />
+
+    </application>
+
+</manifest>

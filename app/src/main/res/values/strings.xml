@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UiEffect-ktx</string>
+
+    <string name="title_component">组件</string>
+    <string name="title_tool">工具</string>
+    <string name="title_extend">扩展</string>
+    <string name="add">添加</string>
+
+
+</resources>
