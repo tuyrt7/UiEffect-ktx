@@ -31,12 +31,16 @@ class WaveActivity:BaseActivity<NoViewModel, ActivityWaveBinding>() {
 
     override fun initView(savedInstanceState: Bundle?) {
         thread {
+            // 模拟取值
             while (flag) {
                 SystemClock.sleep(30)
                 // 取值 -300 ~ 300
                 val short = (random.nextInt(600) - 300).toShort()
+                // 取值 0 ~ 100
+                val volume = random.nextInt(100)
                 runOnUiThread {
                     waveView.addData(short)
+                    waveLineView.setVolume(volume)
                 }
             }
         }
