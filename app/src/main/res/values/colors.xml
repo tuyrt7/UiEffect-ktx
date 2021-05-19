@@ -13,4 +13,7 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="gray">#aaaaaa</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="green">#59CC59</color>
 </resources>

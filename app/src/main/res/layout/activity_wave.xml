@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.tuyrt.uieffect.view.wave.WaveView
+            android:id="@+id/wave_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:baselineColor="@color/transparent"
+            app:waveColor="@color/green"
+            app:waveStokeWidth="1dp" />
+
+        <com.tuyrt.uieffect.view.wave.WaveLineView
+            android:id="@+id/waveLineView"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_below="@+id/wave_view"
+            app:wlvBackgroundColor="@color/transparent"
+            app:wlvLineColor="@color/green"
+            app:wlvMoveSpeed="290"
+            app:wlvSensibility="9" />
+    </RelativeLayout>
+</layout>

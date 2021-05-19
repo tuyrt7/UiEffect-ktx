@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="观察者"
-            app:layout_behavior=".module.extend.material.behavior.FollowBehavior" />
+            app:layout_behavior=".module.extends.material.behavior.FollowBehavior" />
 
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

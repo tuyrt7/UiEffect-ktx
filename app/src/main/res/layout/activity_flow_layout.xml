@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <com.tuyrt.uieffect.view.FlowLayout
+        android:id="@+id/fl_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        app:backgroundResource="@drawable/flow_tag_bg"
+        app:horizontalSpacing="15dp"
+        app:itemColor="@color/colorAccent"
+        app:itemSize="15sp"
+        app:textPaddingH="15dp"
+        app:textPaddingV="8dp"
+        app:verticalSpacing="15dp" />
+</layout>

@@ -11,11 +11,11 @@
 
     <fragment
         android:id="@+id/toolFragment"
-        android:name="com.tuyrt.uieffect.module.tool.ToolFragment"
+        android:name="com.tuyrt.uieffect.module.tools.ToolFragment"
         android:label="@string/title_tool" />
 
     <fragment
         android:id="@+id/extendFragment"
-        android:name="com.tuyrt.uieffect.module.extend.ExtendFragment"
+        android:name="com.tuyrt.uieffect.module.extends.ExtendFragment"
         android:label="@string/title_extend" />
 </navigation>
