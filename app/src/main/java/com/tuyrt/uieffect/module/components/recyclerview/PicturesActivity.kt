@@ -5,7 +5,7 @@ import android.util.Log
 import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.cs.recyclerview.ui.decoration.MarginDecoration
+import com.tuyrt.uieffect.module.components.recyclerview.decoration.MarginDecoration
 import com.tuyrt.uieffect.R
 import com.tuyrt.uieffect.arch.BaseActivity
 import com.tuyrt.uieffect.module.components.recyclerview.adapter.MeiZiAdapter

@@ -27,5 +27,18 @@
             app:wlvLineColor="@color/green"
             app:wlvMoveSpeed="290"
             app:wlvSensibility="9" />
+
+        <com.tuyrt.uieffect.view.wave.WaterWaveView
+            android:id="@+id/water_wave_view"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/waveLineView" />
+
+        <com.tuyrt.uieffect.view.wave.WaterWaveView
+            android:id="@+id/water_wave_view2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/waveLineView"
+            android:layout_alignParentEnd="true" />
     </RelativeLayout>
 </layout>

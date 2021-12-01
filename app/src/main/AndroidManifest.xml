@@ -43,6 +43,8 @@
         <activity android:name=".module.components.flow.FlowLayoutActivity" />
 
         <activity android:name=".module.components.waveview.WaveActivity" />
+        <activity android:name=".module.components.button.ButtonActivity" />
+
 
         <!-- ********************** Tools 工具 ***********************************-->
         <!--StatusBar-效果 -->
@@ -53,6 +55,8 @@
         <activity android:name="com.tuyrt.uieffect.module.tools.statusbar.FullScreenWithTextActivity"
             android:theme="@style/NoActionBarStyle"/>
         <activity android:name="com.tuyrt.uieffect.module.tools.statusbar.FullscreenWithTitleBarActivity"
+            android:theme="@style/status_toolbar_same_color"/>
+        <activity android:name="com.tuyrt.uieffect.module.tools.statusbar.SwitchStatusActivity"
             android:theme="@style/status_toolbar_same_color"/>
 
         <!--bitmap-->
@@ -86,7 +90,7 @@
         <activity android:name="com.tuyrt.uieffect.module.extends.material.ZhiHuActivity"
             android:theme="@style/NoActionBarStyle"/>
 
-
+        <activity android:name=".module.extends.gray.GrayActivity" />
 
     </application>
 

@@ -1,4 +1,4 @@
-package com.cs.recyclerview.ui.decoration
+package com.tuyrt.uieffect.module.components.recyclerview.decoration
 
 import android.graphics.Rect
 import android.view.View

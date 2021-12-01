@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <com.tuyrt.uieffect.view.gray.GrayImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我要测试灰度"
+            android:padding="8dp"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="30sp" />
+
+        <com.tuyrt.uieffect.view.gray.GrayTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@android:color/holo_red_light"
+            android:padding="8dp"
+            android:text="我要测试灰度" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我被锤了"
+            android:padding="8dp"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="30sp" />
+
+        <com.tuyrt.uieffect.view.gray.GrayButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@android:color/holo_red_light"
+            android:padding="8dp"
+            android:text="我被锤了" />
+
+    </LinearLayout>
+</layout>

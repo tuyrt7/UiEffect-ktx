@@ -3,7 +3,7 @@ package com.tuyrt.uieffect.module.extends
 import android.content.Intent
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
-import com.cs.recyclerview.ui.decoration.MarginDecoration
+import com.tuyrt.uieffect.module.components.recyclerview.decoration.MarginDecoration
 import com.tuyrt.uieffect.R
 import com.tuyrt.uieffect.arch.BaseFragment
 import com.tuyrt.uieffect.databinding.FragmentModuleCommonBinding

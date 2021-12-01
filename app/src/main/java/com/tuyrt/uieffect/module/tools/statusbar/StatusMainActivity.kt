@@ -26,5 +26,9 @@ class StatusMainActivity() : BaseActivity<NoViewModel, ActivityStatusMainBinding
         binding.sameColorWithTitleBar.setOnClickListener {
             startActivity(Intent(this, FullscreenWithTitleBarActivity::class.java))
         }
+
+        binding.switchStatus.setOnClickListener {
+            startActivity(Intent(this, SwitchStatusActivity::class.java))
+        }
     }
 }

@@ -3,7 +3,7 @@ package com.tuyrt.uieffect.module.components.recyclerview
 import android.os.Bundle
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.cs.recyclerview.ui.decoration.DividerDecoration
+import com.tuyrt.uieffect.module.components.recyclerview.decoration.DividerDecoration
 import com.tuyrt.uieffect.R
 import com.tuyrt.uieffect.arch.BaseActivity
 import com.tuyrt.uieffect.arch.NoViewModel
