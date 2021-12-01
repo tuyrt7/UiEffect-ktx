@@ -66,6 +66,8 @@
         <activity android:name=".module.tools.bitmap.GlideActivity" />
         <activity android:name=".module.tools.bitmap.SubSamplingActivity" />
 
+        <activity android:name=".module.tools.asyncinflate.AsyncInflateActivity" />
+
         <!-- ********************** Extends 扩展 ***********************************-->
         <activity android:name="com.tuyrt.uieffect.module.extends.mark.MarkActivity" />
 

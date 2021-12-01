@@ -14,6 +14,7 @@ import com.tuyrt.uieffect.module.tools.bitmap.BitmapMainActivity
 import com.tuyrt.uieffect.module.extends.floats.FloatsMainActivity
 import com.tuyrt.uieffect.module.extends.gray.GrayActivity
 import com.tuyrt.uieffect.module.extends.material.MaterialActivity
+import com.tuyrt.uieffect.module.tools.asyncinflate.AsyncInflateActivity
 
 /**
  * Created by tuyrt7 on 2021/4/23.
@@ -30,7 +31,8 @@ class ComponentViewModel : BaseViewModel() {
 
     val toolItemList = listOf(
         ComponentItem(1, "statusbar", StatusMainActivity::class.java),
-        ComponentItem(3, "bitmap", BitmapMainActivity::class.java),
+        ComponentItem(2, "bitmap", BitmapMainActivity::class.java),
+        ComponentItem(3, "AsyncInflate", AsyncInflateActivity::class.java)
     )
 
     val extendItemList = listOf(
